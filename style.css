@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/*This is the first layer */
+
+/* This is the second layer */
+.part-2 {
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+.section-2 {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.boxes,
+.text {
+  display: flex;
+  gap: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.boxes div {
+  border: 2px solid red;
+  height: 100px;
+  flex: 1 1 auto;
+}
+
+/* This is the third layer */
+.part-3 {
+  border: 2px solid greenyellow;
+  padding: 80px;
+}
+
+p {
+  align-items: center;
+}
+
+.agu {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+/* This is the fourth layer */
